@@ -1,15 +1,14 @@
 public class CalculatorPro {
-    public int addition(int x, int y){
+    public float addition(float x, float y){
         return x+y;
     }
-    public int substraction(int x, int y){
-        return x=y;
+    public float subtraction(float x, float y){
+        return x-y;
     }
-
-    public int multiplication(int x, int y){
+    public float multiplication(float x, float y){
         return x*y;
     }
-    public int division(int x, int y){
+    public float division(float x, float y){
         return x/y;
     }
 }
